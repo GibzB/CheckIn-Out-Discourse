@@ -1,2 +1,2 @@
 # CheckIn-CheckOut-Discourse
-Automated Question postage for remote team building fun activity
+An automated Question postage for remote team building fun activity
