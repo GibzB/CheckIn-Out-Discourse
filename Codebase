@@ -1,1 +1,9 @@
-<Here is the code implementation>
+
+const JSX = (
+  <div>
+
+  {/* here lies the code implementation*/}
+    <h1>This is a block of JSX</h1>
+    <p>Here's a subtitle</p>
+  </div>
+);
