@@ -14,3 +14,23 @@ const JSX = (
   
   
 );
+
+class TypesOfFood extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        <h1>Types of Food:</h1>
+        {/* change code below this line */}
+        <Fruits />
+        <Vegetables />
+        {/* code above this line is a COMPONENT and has been rendered/nested to the TypeOfFood class */}
+      </div>
+    );
+  }
+};
+
+{/* here lies the DOM syntax*/}
+ReactDOM.render(<TypesOfFood />, document.getElementById('challenge-node'))
